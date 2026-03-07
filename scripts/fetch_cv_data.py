@@ -9,25 +9,30 @@ from typing import Any
 
 import requests
 import yaml
-from bs4 import BeautifulSoup
 
-ROOT = Path("/Users/sraza/Documents/cv")
+ROOT = Path(__file__).resolve().parents[1]
 PROFILE_PATH = ROOT / "cv_profile.yaml"
 OUTPUT_PATH = ROOT / "site-data.json"
-MY_BIBLIOGRAPHY_URL = "https://www.ncbi.nlm.nih.gov/myncbi/sheharyar.raza.1/bibliography/public/"
+ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 ESUMMARY_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
+PUBMED_AUTHOR_QUERY = "Sheharyar Raza[Author - Full]"
 
 
-def fetch_mybibliography_pmids() -> list[str]:
-    response = requests.get(MY_BIBLIOGRAPHY_URL, timeout=30)
+def search_pubmed_pmids() -> list[str]:
+    response = requests.get(
+        ESEARCH_URL,
+        params={
+            "db": "pubmed",
+            "term": PUBMED_AUTHOR_QUERY,
+            "retmode": "json",
+            "retmax": 200,
+            "sort": "pub date",
+            "tool": "raza-cv",
+        },
+        timeout=30,
+    )
     response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
-    pmids: list[str] = []
-
-    for checkbox in soup.select("input.citation-check[pmid]"):
-        pmid = checkbox.get("pmid", "").strip()
-        if pmid:
-            pmids.append(pmid)
+    pmids = response.json()["esearchresult"]["idlist"]
 
     seen: set[str] = set()
     ordered_pmids: list[str] = []
@@ -168,7 +173,7 @@ def curated_contributions() -> list[dict[str, str]]:
 
 def build_site_data() -> dict[str, Any]:
     profile = load_profile()["profile"]
-    pmids = fetch_mybibliography_pmids()
+    pmids = search_pubmed_pmids()
     publications = fetch_pubmed_records(pmids)
     publication_years = Counter(publication["year"] for publication in publications)
     contributions = curated_contributions()

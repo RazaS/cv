@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T23:20:08.548016+00:00",
+  "generated_at": "2026-03-07T23:56:51.084893+00:00",
   "name": "Sheharyar Raza",
   "headline": "Interactive curriculum vitae",
   "summary": "Hematology, transfusion medicine, biostatistics, scientific writing, computer programming, and artificial intelligence.",
@@ -84,6 +84,30 @@
       "sortpubdate": "2026/03/01 00:00"
     },
     {
+      "pmid": "41711290",
+      "title": "When Strong Recommendations Rest on Weak Evidence: Lessons From Therapeutic Apheresis Guidelines.",
+      "authors": [
+        "Jacobs JW",
+        "Booth GS",
+        "Adkins BD",
+        "Costa V",
+        "Raza S",
+        "Park YA",
+        "Schwartz JY",
+        "Bloch EM"
+      ],
+      "authors_display": "Jacobs JW, Booth GS, Adkins BD, Costa V, Raza S, Park YA, et al.",
+      "journal": "Journal of clinical apheresis",
+      "publication_date": "2026 Feb",
+      "year": "2026",
+      "doi": "10.1002/jca.70098",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41711290/",
+      "sortpubdate": "2026/02/01 00:00"
+    },
+    {
       "pmid": "41449709",
       "title": "Opportunities for improving platelet transfusion practice: A large retrospective audit across 22 hospitals.",
       "authors": [
@@ -133,6 +157,26 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41443058/",
       "sortpubdate": "2026/02/01 00:00"
+    },
+    {
+      "pmid": "41723890",
+      "title": "Artificial Intelligence Implementation in Transfusion Medicine: Addressing the Challenges of Clinical Adoption.",
+      "authors": [
+        "Maynard S",
+        "Farrington J",
+        "Raza S",
+        "Stanworth SJ"
+      ],
+      "authors_display": "Maynard S, Farrington J, Raza S, Stanworth SJ",
+      "journal": "Transfusion medicine reviews",
+      "publication_date": "2026 Jan 29",
+      "year": "2026",
+      "doi": "10.1016/j.tmrv.2026.150961",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41723890/",
+      "sortpubdate": "2026/01/29 00:00"
     },
     {
       "pmid": "41152565",
@@ -283,6 +327,34 @@
       "sortpubdate": "2025/11/01 00:00"
     },
     {
+      "pmid": "40972186",
+      "title": "Artificial Intelligence and Machine Learning in Transfusion Practice: An Analytical Assessment.",
+      "authors": [
+        "Li N",
+        "Goel R",
+        "Raza S",
+        "Riazi K",
+        "Pan J",
+        "Nguyen HQ",
+        "Shih AW",
+        "D'Souza A",
+        "Dubey R",
+        "Tobian AAR",
+        "Arnold DM"
+      ],
+      "authors_display": "Li N, Goel R, Raza S, Riazi K, Pan J, Nguyen HQ, et al.",
+      "journal": "Transfusion medicine reviews",
+      "publication_date": "2025 Oct",
+      "year": "2025",
+      "doi": "10.1016/j.tmrv.2025.150926",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40972186/",
+      "sortpubdate": "2025/10/01 00:00"
+    },
+    {
       "pmid": "40914907",
       "title": "Plasma transfusion practice: A five-year audit of plasma transfusion at 23 hospitals.",
       "authors": [
@@ -311,34 +383,6 @@
         "Multicenter Study"
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40914907/",
-      "sortpubdate": "2025/10/01 00:00"
-    },
-    {
-      "pmid": "40972186",
-      "title": "Artificial Intelligence and Machine Learning in Transfusion Practice: An Analytical Assessment.",
-      "authors": [
-        "Li N",
-        "Goel R",
-        "Raza S",
-        "Riazi K",
-        "Pan J",
-        "Nguyen HQ",
-        "Shih AW",
-        "D'Souza A",
-        "Dubey R",
-        "Tobian AAR",
-        "Arnold DM"
-      ],
-      "authors_display": "Li N, Goel R, Raza S, Riazi K, Pan J, Nguyen HQ, et al.",
-      "journal": "Transfusion medicine reviews",
-      "publication_date": "2025 Oct",
-      "year": "2025",
-      "doi": "10.1016/j.tmrv.2025.150926",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40972186/",
       "sortpubdate": "2025/10/01 00:00"
     },
     {
@@ -1038,7 +1082,7 @@
     }
   ],
   "publication_years": {
-    "2026": 5,
+    "2026": 7,
     "2025": 15,
     "2024": 9,
     "2023": 2,
@@ -1047,7 +1091,7 @@
     "2017": 1,
     "2016": 2
   },
-  "publication_count": 38,
+  "publication_count": 40,
   "other_contributions": [
     {
       "title": "Plasma analysis from GADGET, ICTMG plasma guidelines",
@@ -1104,7 +1148,7 @@
   "stats": [
     {
       "label": "PubMed publications",
-      "value": "38"
+      "value": "40"
     },
     {
       "label": "Other contributions",
