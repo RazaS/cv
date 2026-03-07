@@ -1,0 +1,42 @@
+profile:
+  skills:
+    title: Skills
+    items:
+      - Clinical skills
+      - Scientific writing
+      - Computer programming
+      - Biostatistics
+      - Artificial intelligence
+  formal_education:
+    title: Formal Education and Training
+    items:
+      - institution: University of Toronto
+        degree: Biostatistics, MSc Candidate
+        duration: September 2023 to Present (expected completion April 2026)
+      - institution: Canadian Blood Services and University of Toronto
+        degree: Transfusion Medicine Fellowship
+        duration: July 2023 to July 2025
+      - institution: University of Toronto
+        degree: Hematology Residency, Chief Resident
+        duration: July 2021 to June 2023
+      - institution: University of Toronto
+        degree: Internal Medicine Residency, FRCPC Internal Medicine
+        duration: July 2018 to June 2021
+      - institution: University of Toronto
+        degree: Doctor of Medicine (MD)
+        duration: July 2014 to June 2018
+      - institution: University of Toronto
+        degree: Neuroscience and Human Biology (HBSc)
+        duration: September 2010 to June 2014
+  professional_experience:
+    title: Professional Experience
+    items:
+      - institution: Canadian Blood Services
+        role: Medical Officer
+        duration: "2025 → Present"
+      - institution: University Health Network
+        role: Transfusion Medicine Specialist
+        duration: "2025"
+      - institution: St. Michael's Hospital
+        role: Clinician Associate, Internal Medicine
+        duration: "2024 → Present"

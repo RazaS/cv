@@ -1,0 +1,130 @@
+sources:
+  - id: pubmed_publications
+    section: publications
+    label: PubMed publications
+    source_url: https://www.ncbi.nlm.nih.gov/myncbi/sheharyar.raza.1/bibliography/public/
+    purpose: Canonical source for PubMed-indexed publications.
+    update_strategy:
+      cadence: weekly
+      discovery_method: Scrape PMID list from the public NCBI My Bibliography page.
+      canonical_fetch: Use NCBI PubMed APIs/E-utilities per PMID for normalized metadata.
+    identifiers:
+      primary:
+        - pmid
+      secondary:
+        - doi
+        - normalized_title
+    fields:
+      - title
+      - authors
+      - journal
+      - publication_date
+      - doi
+      - publication_type
+      - publication_status
+      - pmid
+      - pubmed_url
+    dedupe_rules:
+      - Treat PMID as authoritative.
+      - Fall back to DOI if PMID is absent.
+      - Fall back to normalized title plus first author plus year only as a last resort.
+    status: approved
+
+  - id: scholar_other_contributions
+    section: other_contributions
+    label: Google Scholar discovery
+    source_url: https://scholar.google.com/
+    search_seed: '"Sheharyar Raza"'
+    purpose: Discovery source for preprints, talks, posters, theses, reports, and other non-PubMed scholarly outputs.
+    update_strategy:
+      cadence: weekly
+      discovery_method: Use Google Scholar alerts or a maintained Scholar profile as the change signal.
+      canonical_fetch: Resolve each discovered item to its source host and fetch metadata from the host or a host-specific API.
+      notes:
+        - Do not automate queries directly against Google Scholar.
+        - Use Scholar only to discover candidate records.
+    identifiers:
+      primary:
+        - doi
+        - arxiv_id
+        - ssrn_id
+        - osf_id
+        - zenodo_id
+      secondary:
+        - source_url
+        - normalized_title
+    fields:
+      - title
+      - authors
+      - year
+      - contribution_type
+      - source_host
+      - source_url
+      - doi
+      - abstract
+      - venue
+      - repository
+    dedupe_rules:
+      - Exclude any item whose PMID matches the PubMed section.
+      - Exclude any item whose DOI matches a PubMed citation DOI.
+      - Exclude likely duplicates by normalized title similarity and year proximity.
+      - Prefer the most authoritative host record when multiple versions exist.
+    review_flags:
+      - Scholar name searches can include false positives for people with overlapping names.
+      - Contribution type classification may require source-specific rules.
+    status: approved_with_constraints
+
+  - id: linkedin_profile
+    section: professional_profile
+    label: LinkedIn profile
+    purpose: Source for employment history, education, certifications, honors, projects, publications listed on profile, skills, and public-facing professional summary.
+    source_url: https://www.linkedin.com/
+    access_modes:
+      preferred:
+        - type: account_export
+          description: LinkedIn account data export ZIP requested from Settings and Privacy.
+        - type: member_portability_api
+          description: LinkedIn Member Portability APIs where eligibility and user region allow it.
+      fallback:
+        - type: authenticated_scraper
+          tool: joeyism/linkedin_scraper
+          description: Browser-session scraping using a locally created LinkedIn session file.
+    update_strategy:
+      cadence: weekly
+      preferred_flow:
+        - Import the latest LinkedIn account export if available.
+        - Parse profile-related CSV and JSON files from the archive.
+        - Normalize and merge into the CV profile model.
+      fallback_flow:
+        - Refresh an authenticated browser session.
+        - Scrape the public profile URL and visible sections.
+        - Reconcile with the prior snapshot to detect changes.
+      notes:
+        - Treat LinkedIn export data as more stable than DOM scraping.
+        - Scraper access depends on a valid authenticated session and LinkedIn page structure.
+    fields:
+      - full_name
+      - headline
+      - location
+      - about
+      - positions
+      - education
+      - certifications
+      - honors
+      - projects
+      - publications
+      - skills
+      - recommendations
+      - rich_media
+      - profile_url
+    identifiers:
+      primary:
+        - profile_url
+      secondary:
+        - normalized_company_plus_title_plus_start_date
+        - normalized_school_plus_degree_plus_end_date
+    review_flags:
+      - LinkedIn public profiles may omit sections that exist in the account export.
+      - Scraping-based approaches are brittle and may require periodic maintenance.
+      - Publications listed on LinkedIn should be deduped against PubMed and other contributions by DOI and normalized title.
+    status: approved_with_constraints

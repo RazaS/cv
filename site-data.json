@@ -1,0 +1,1118 @@
+{
+  "generated_at": "2026-03-07T23:20:08.548016+00:00",
+  "name": "Sheharyar Raza",
+  "headline": "Interactive curriculum vitae",
+  "summary": "Hematology, transfusion medicine, biostatistics, scientific writing, computer programming, and artificial intelligence.",
+  "skills": [
+    "Clinical skills",
+    "Scientific writing",
+    "Computer programming",
+    "Biostatistics",
+    "Artificial intelligence"
+  ],
+  "formal_education": [
+    {
+      "institution": "University of Toronto",
+      "degree": "Biostatistics, MSc Candidate",
+      "duration": "September 2023 to Present (expected completion April 2026)"
+    },
+    {
+      "institution": "Canadian Blood Services and University of Toronto",
+      "degree": "Transfusion Medicine Fellowship",
+      "duration": "July 2023 to July 2025"
+    },
+    {
+      "institution": "University of Toronto",
+      "degree": "Hematology Residency, Chief Resident",
+      "duration": "July 2021 to June 2023"
+    },
+    {
+      "institution": "University of Toronto",
+      "degree": "Internal Medicine Residency, FRCPC Internal Medicine",
+      "duration": "July 2018 to June 2021"
+    },
+    {
+      "institution": "University of Toronto",
+      "degree": "Doctor of Medicine (MD)",
+      "duration": "July 2014 to June 2018"
+    },
+    {
+      "institution": "University of Toronto",
+      "degree": "Neuroscience and Human Biology (HBSc)",
+      "duration": "September 2010 to June 2014"
+    }
+  ],
+  "professional_experience": [
+    {
+      "institution": "Canadian Blood Services",
+      "role": "Medical Officer",
+      "duration": "2025 \u2192 Present"
+    },
+    {
+      "institution": "University Health Network",
+      "role": "Transfusion Medicine Specialist",
+      "duration": "2025"
+    },
+    {
+      "institution": "St. Michael's Hospital",
+      "role": "Clinician Associate, Internal Medicine",
+      "duration": "2024 \u2192 Present"
+    }
+  ],
+  "publications": [
+    {
+      "pmid": "41441855",
+      "title": "Improving transfusion access through improved policy: a call for a less fragmented blood supply.",
+      "authors": [
+        "Jacobs JW",
+        "Raza S",
+        "Maynard S",
+        "Shaz BH",
+        "Tobian AAR",
+        "Bloch EM"
+      ],
+      "authors_display": "Jacobs JW, Raza S, Maynard S, Shaz BH, Tobian AAR, Bloch EM",
+      "journal": "Expert review of hematology",
+      "publication_date": "2026 Mar",
+      "year": "2026",
+      "doi": "10.1080/17474086.2025.2610282",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41441855/",
+      "sortpubdate": "2026/03/01 00:00"
+    },
+    {
+      "pmid": "41449709",
+      "title": "Opportunities for improving platelet transfusion practice: A large retrospective audit across 22 hospitals.",
+      "authors": [
+        "Ryan S",
+        "Liu Y",
+        "Raza S",
+        "Loeffler A",
+        "Relke N",
+        "Gabarin N",
+        "Risk M",
+        "Nguyen PU",
+        "Li N",
+        "Verma A",
+        "Razak F",
+        "Karkouti K",
+        "Dyba J",
+        "Arnold D",
+        "Callum J"
+      ],
+      "authors_display": "Ryan S, Liu Y, Raza S, Loeffler A, Relke N, Gabarin N, et al.",
+      "journal": "British journal of haematology",
+      "publication_date": "2026 Feb",
+      "year": "2026",
+      "doi": "10.1111/bjh.70304",
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41449709/",
+      "sortpubdate": "2026/02/01 00:00"
+    },
+    {
+      "pmid": "41443058",
+      "title": "\"Go with O Pos\" - Blood transfusion during mass casualty in The Pitt.",
+      "authors": [
+        "Raza S",
+        "Booth GS",
+        "Jacobs JW"
+      ],
+      "authors_display": "Raza S, Booth GS, Jacobs JW",
+      "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+      "publication_date": "2026 Feb",
+      "year": "2026",
+      "doi": "10.1016/j.transci.2025.104299",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41443058/",
+      "sortpubdate": "2026/02/01 00:00"
+    },
+    {
+      "pmid": "41152565",
+      "title": "Red Cell Transfusion in General Medicine Patients at Teaching and Non-teaching Hospitals: A Retrospective Cohort Analysis.",
+      "authors": [
+        "Raza S",
+        "Risk M",
+        "Loeffler A",
+        "Verma AA",
+        "Razak F",
+        "Arnold D",
+        "Fergusson D",
+        "Ryan S",
+        "Relke N",
+        "Gabarin N",
+        "Li N",
+        "Nguyen R",
+        "Tyryshkin K",
+        "Roberts S",
+        "Callum J",
+        "GADGET Research Team"
+      ],
+      "authors_display": "Raza S, Risk M, Loeffler A, Verma AA, Razak F, Arnold D, et al.",
+      "journal": "Journal of general internal medicine",
+      "publication_date": "2026 Jan",
+      "year": "2026",
+      "doi": "10.1007/s11606-025-09860-5",
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41152565/",
+      "sortpubdate": "2026/01/01 00:00"
+    },
+    {
+      "pmid": "40716988",
+      "title": "Reader comment regarding a national analysis of whole blood versus component therapy in pediatric trauma resuscitations.",
+      "authors": [
+        "Jacobs JW",
+        "Adkins BD",
+        "Raza S",
+        "Booth GS"
+      ],
+      "authors_display": "Jacobs JW, Adkins BD, Raza S, Booth GS",
+      "journal": "The American journal of emergency medicine",
+      "publication_date": "2026 Jan",
+      "year": "2026",
+      "doi": "10.1016/j.ajem.2025.07.055",
+      "publication_types": [
+        "Letter"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40716988/",
+      "sortpubdate": "2026/01/01 00:00"
+    },
+    {
+      "pmid": "41472522",
+      "title": "Factor XIII Supplementation in Postpartum Hemorrhage: From Biological Rationale to Clinical Implementation.",
+      "authors": [
+        "Jacobs JW",
+        "Abels EA",
+        "Adkins BD",
+        "Booth GS",
+        "Costa V",
+        "Raza S",
+        "Simon M",
+        "Woo JS",
+        "Wheeler AP"
+      ],
+      "authors_display": "Jacobs JW, Abels EA, Adkins BD, Booth GS, Costa V, Raza S, et al.",
+      "journal": "American journal of hematology",
+      "publication_date": "2025 Dec 31",
+      "year": "2025",
+      "doi": "10.1002/ajh.70181",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41472522/",
+      "sortpubdate": "2025/12/31 00:00"
+    },
+    {
+      "pmid": "41074624",
+      "title": "Confronting medical grifting: Fraudulent and unproven products and interventions in apheresis, transfusion and biotherapies.",
+      "authors": [
+        "Adkins BD",
+        "Raza S",
+        "Costa V",
+        "Allen ES",
+        "Stephens LD",
+        "Woo JS",
+        "Booth GS",
+        "Jacobs JW"
+      ],
+      "authors_display": "Adkins BD, Raza S, Costa V, Allen ES, Stephens LD, Woo JS, et al.",
+      "journal": "British journal of haematology",
+      "publication_date": "2025 Dec",
+      "year": "2025",
+      "doi": "10.1111/bjh.70194",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41074624/",
+      "sortpubdate": "2025/12/01 00:00"
+    },
+    {
+      "pmid": "41167601",
+      "title": "From Fresh Frozen Plasma to First-in-human: Bringing Coagulation Factor V Deficiency into Therapeutic Trials.",
+      "authors": [
+        "Jacobs JW",
+        "Raza S",
+        "Figueroa Villalba CA",
+        "Adkins BD",
+        "Walker SC",
+        "Booth GS",
+        "Sharma D",
+        "Wheeler AP"
+      ],
+      "authors_display": "Jacobs JW, Raza S, Figueroa Villalba CA, Adkins BD, Walker SC, Booth GS, et al.",
+      "journal": "Seminars in thrombosis and hemostasis",
+      "publication_date": "2025 Nov 10",
+      "year": "2025",
+      "doi": "10.1055/a-2735-1659",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41167601/",
+      "sortpubdate": "2025/11/10 00:00"
+    },
+    {
+      "pmid": "41084189",
+      "title": "Methodological considerations in assessing bleeding risk during therapeutic plasma exchange.",
+      "authors": [
+        "Jacobs JW",
+        "Adkins BD",
+        "Booth GS",
+        "Raza S"
+      ],
+      "authors_display": "Jacobs JW, Adkins BD, Booth GS, Raza S",
+      "journal": "Transfusion",
+      "publication_date": "2025 Nov",
+      "year": "2025",
+      "doi": "10.1111/trf.18451",
+      "publication_types": [
+        "Letter"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41084189/",
+      "sortpubdate": "2025/11/01 00:00"
+    },
+    {
+      "pmid": "40914907",
+      "title": "Plasma transfusion practice: A five-year audit of plasma transfusion at 23 hospitals.",
+      "authors": [
+        "Gabarin N",
+        "Nguyen PU",
+        "Li N",
+        "Loeffler A",
+        "Raza S",
+        "Relke N",
+        "Ryan S",
+        "Bartoszko J",
+        "Liu Y",
+        "Risk M",
+        "Razak F",
+        "Verma A",
+        "Arnold DM",
+        "Callum J"
+      ],
+      "authors_display": "Gabarin N, Nguyen PU, Li N, Loeffler A, Raza S, Relke N, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2025 Oct",
+      "year": "2025",
+      "doi": "10.1111/trf.18400",
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40914907/",
+      "sortpubdate": "2025/10/01 00:00"
+    },
+    {
+      "pmid": "40972186",
+      "title": "Artificial Intelligence and Machine Learning in Transfusion Practice: An Analytical Assessment.",
+      "authors": [
+        "Li N",
+        "Goel R",
+        "Raza S",
+        "Riazi K",
+        "Pan J",
+        "Nguyen HQ",
+        "Shih AW",
+        "D'Souza A",
+        "Dubey R",
+        "Tobian AAR",
+        "Arnold DM"
+      ],
+      "authors_display": "Li N, Goel R, Raza S, Riazi K, Pan J, Nguyen HQ, et al.",
+      "journal": "Transfusion medicine reviews",
+      "publication_date": "2025 Oct",
+      "year": "2025",
+      "doi": "10.1016/j.tmrv.2025.150926",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40972186/",
+      "sortpubdate": "2025/10/01 00:00"
+    },
+    {
+      "pmid": "40579776",
+      "title": "Rising transfusion rates amidst stable blood supply: A Canadian perspective on emerging challenges for blood operators.",
+      "authors": [
+        "Duong A",
+        "Raza S",
+        "Waito M",
+        "Petraszko T",
+        "Alam AQ"
+      ],
+      "authors_display": "Duong A, Raza S, Waito M, Petraszko T, Alam AQ",
+      "journal": "Transfusion",
+      "publication_date": "2025 Aug",
+      "year": "2025",
+      "doi": "10.1111/trf.18325",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40579776/",
+      "sortpubdate": "2025/08/01 00:00"
+    },
+    {
+      "pmid": "40521642",
+      "title": "Blood Borders: State laws, vaccine misinformation, and the threat to the United States blood supply.",
+      "authors": [
+        "Jacobs JW",
+        "Chooljian DM",
+        "Raza S",
+        "Stephens LD",
+        "Schlafer TD",
+        "Cohn CS",
+        "Tobian AAR",
+        "Bloch EM",
+        "Booth GS"
+      ],
+      "authors_display": "Jacobs JW, Chooljian DM, Raza S, Stephens LD, Schlafer TD, Cohn CS, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2025 Aug",
+      "year": "2025",
+      "doi": "10.1111/trf.18312",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40521642/",
+      "sortpubdate": "2025/08/01 00:00"
+    },
+    {
+      "pmid": "40392014",
+      "title": "Mixed Autoimmune Hemolytic Anemia: A Systematic Review of Epidemiology, Clinical Characteristics, Therapies, and Outcomes.",
+      "authors": [
+        "Jacobs JW",
+        "Raza S",
+        "Clark LM",
+        "Stephens LD",
+        "Allen ES",
+        "Woo JS",
+        "Walden RL",
+        "Figueroa Villalba CA",
+        "Tormey CA",
+        "Stanek CG",
+        "Adkins BD",
+        "Bloch EM",
+        "Booth GS"
+      ],
+      "authors_display": "Jacobs JW, Raza S, Clark LM, Stephens LD, Allen ES, Woo JS, et al.",
+      "journal": "American journal of hematology",
+      "publication_date": "2025 Aug",
+      "year": "2025",
+      "doi": "10.1002/ajh.27721",
+      "publication_types": [
+        "Systematic Review",
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40392014/",
+      "sortpubdate": "2025/08/01 00:00"
+    },
+    {
+      "pmid": "40354666",
+      "title": "Medical, Societal, and Ethical Considerations for Directed Blood Donation in 2025.",
+      "authors": [
+        "Jacobs JW",
+        "Booth GS",
+        "Lewis-Newby M",
+        "Saifee NH",
+        "Ferguson E",
+        "Cohn CS",
+        "Delaney M",
+        "Morley S",
+        "Thomas S",
+        "Thorpe R",
+        "Raza S",
+        "Weaver MS",
+        "Woo JS",
+        "Sharma D",
+        "So-Osman C",
+        "Yurtsever N",
+        "Tormey CA",
+        "Waters A",
+        "Goldman M",
+        "Yan MTS",
+        "Fasano RM",
+        "Stephens LD",
+        "Allen ES",
+        "Erikstrup C",
+        "Infanti L",
+        "Schlafer TD",
+        "Warner MA",
+        "Winters JL",
+        "Tobian AAR",
+        "Bloch EM"
+      ],
+      "authors_display": "Jacobs JW, Booth GS, Lewis-Newby M, Saifee NH, Ferguson E, Cohn CS, et al.",
+      "journal": "Annals of internal medicine",
+      "publication_date": "2025 Jul",
+      "year": "2025",
+      "doi": "10.7326/ANNALS-25-00815",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40354666/",
+      "sortpubdate": "2025/07/01 00:00"
+    },
+    {
+      "pmid": "40255123",
+      "title": "Canadian donations and transfusion database (CANDAT): From blood donors to transfusion recipients.",
+      "authors": [
+        "Raza S",
+        "Callum J",
+        "Modi D",
+        "Sztainert T",
+        "Shih AW",
+        "Schull MJ",
+        "McGrail K",
+        "Verma A",
+        "Razak F",
+        "Russell A",
+        "Tinmouth A",
+        "Pambrun C",
+        "Charg\u00e9 S",
+        "Lewin A",
+        "Petraszko T",
+        "Alam A",
+        "Webert K",
+        "Dieud\u00e9 M",
+        "Zeller M",
+        "Heddle N",
+        "Hooda S",
+        "O'Brien S",
+        "Ning S",
+        "Malkin A",
+        "Khan T",
+        "Li N",
+        "Nguyen PU",
+        "Liu Y",
+        "Arnold DM",
+        "Canadian Transfusion Trials Group"
+      ],
+      "authors_display": "Raza S, Callum J, Modi D, Sztainert T, Shih AW, Schull MJ, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2025 Jun",
+      "year": "2025",
+      "doi": "10.1111/trf.18257",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40255123/",
+      "sortpubdate": "2025/06/01 00:00"
+    },
+    {
+      "pmid": "40198325",
+      "title": "How do we leverage implementation science to support and accelerate uptake of clinical practice guidelines in transfusion medicine.",
+      "authors": [
+        "Crawshaw J",
+        "Callum J",
+        "Charg\u00e9 S",
+        "Lorencatto F",
+        "Presseau J",
+        "Raza S",
+        "Relke N",
+        "Wolfe A",
+        "Stanworth S"
+      ],
+      "authors_display": "Crawshaw J, Callum J, Charg\u00e9 S, Lorencatto F, Presseau J, Raza S, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2025 May",
+      "year": "2025",
+      "doi": "10.1111/trf.18234",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40198325/",
+      "sortpubdate": "2025/05/01 00:00"
+    },
+    {
+      "pmid": "40172226",
+      "title": "Transfusion probability as an alternative measure of lab-guided medical decision-making.",
+      "authors": [
+        "Risk M",
+        "Callum J",
+        "Trentino K",
+        "Murray K",
+        "Zhao L",
+        "Shi X",
+        "Verma A",
+        "Razak F",
+        "Raza S"
+      ],
+      "authors_display": "Risk M, Callum J, Trentino K, Murray K, Zhao L, Shi X, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2025 May",
+      "year": "2025",
+      "doi": "10.1111/trf.18235",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40172226/",
+      "sortpubdate": "2025/05/01 00:00"
+    },
+    {
+      "pmid": "39873546",
+      "title": "Transfusion Strategies in Myocardial Ischemia - Treat Patients, Not Numbers.",
+      "authors": [
+        "Raza S",
+        "Jacobs JW"
+      ],
+      "authors_display": "Raza S, Jacobs JW",
+      "journal": "NEJM evidence",
+      "publication_date": "2025 Feb",
+      "year": "2025",
+      "doi": "10.1056/EVIDe2400366",
+      "publication_types": [
+        "Editorial",
+        "Comment"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39873546/",
+      "sortpubdate": "2025/02/01 00:00"
+    },
+    {
+      "pmid": "39709612",
+      "title": "Eliminating leukocyte reduction for whole blood: Is it premature to consider this paradigm-changing practice?",
+      "authors": [
+        "Adkins BD",
+        "Booth GS",
+        "Fasano RM",
+        "Gehrie EA",
+        "Gestring ML",
+        "Masel D",
+        "Nguyen PT",
+        "Refaai MA",
+        "Jacobs JW",
+        "Raza S",
+        "Vella MA",
+        "Tormey CA",
+        "Blumberg N"
+      ],
+      "authors_display": "Adkins BD, Booth GS, Fasano RM, Gehrie EA, Gestring ML, Masel D, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2025 Feb",
+      "year": "2025",
+      "doi": "10.1111/trf.18113",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39709612/",
+      "sortpubdate": "2025/02/01 00:00"
+    },
+    {
+      "pmid": "39690187",
+      "title": "Facilitate the move of academia from X to Bluesky.",
+      "authors": [
+        "Booth GS",
+        "Jacobs JW",
+        "Adkins BD",
+        "Raza S"
+      ],
+      "authors_display": "Booth GS, Jacobs JW, Adkins BD, Raza S",
+      "journal": "Nature",
+      "publication_date": "2024 Dec",
+      "year": "2024",
+      "doi": "10.1038/d41586-024-04191-7",
+      "publication_types": [
+        "News"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39690187/",
+      "sortpubdate": "2024/12/01 00:00"
+    },
+    {
+      "pmid": "39406697",
+      "title": "Pitfalls of reasoning in hospital-based transfusion medicine.",
+      "authors": [
+        "Raza S",
+        "Jacobs JW",
+        "Booth GS",
+        "Callum J"
+      ],
+      "authors_display": "Raza S, Jacobs JW, Booth GS, Callum J",
+      "journal": "Transfusion medicine (Oxford, England)",
+      "publication_date": "2024 Dec",
+      "year": "2024",
+      "doi": "10.1111/tme.13104",
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Case Reports"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39406697/",
+      "sortpubdate": "2024/12/01 00:00"
+    },
+    {
+      "pmid": "39324647",
+      "title": "Current state and potential applications of neonatal Fc receptor (FcRn) inhibitors in hematologic conditions.",
+      "authors": [
+        "Jacobs JW",
+        "Booth GS",
+        "Raza S",
+        "Clark LM",
+        "Fasano RM",
+        "Gavriilaki E",
+        "Abels EA",
+        "Binns TC",
+        "Duque MA",
+        "McQuilten ZK",
+        "Mingot-Castellano ME",
+        "Savani BN",
+        "Sharma D",
+        "Tran MH",
+        "Tormey CA",
+        "Moise KJ Jr",
+        "Bloch EM",
+        "Adkins BD"
+      ],
+      "authors_display": "Jacobs JW, Booth GS, Raza S, Clark LM, Fasano RM, Gavriilaki E, et al.",
+      "journal": "American journal of hematology",
+      "publication_date": "2024 Dec",
+      "year": "2024",
+      "doi": "10.1002/ajh.27487",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39324647/",
+      "sortpubdate": "2024/12/01 00:00"
+    },
+    {
+      "pmid": "39264094",
+      "title": "Cybersecurity and the blood supply: The vulnerabilities of the technological revolution.",
+      "authors": [
+        "Jacobs JW",
+        "De Simone N",
+        "Duque MA",
+        "Wu Y",
+        "Ward DC",
+        "Woo JS",
+        "Stephens LD",
+        "Allen ES",
+        "O'Leary MF",
+        "Raza S",
+        "Booth GS",
+        "Adkins BD"
+      ],
+      "authors_display": "Jacobs JW, De Simone N, Duque MA, Wu Y, Ward DC, Woo JS, et al.",
+      "journal": "American journal of hematology",
+      "publication_date": "2024 Dec",
+      "year": "2024",
+      "doi": "10.1002/ajh.27479",
+      "publication_types": [
+        "Editorial"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39264094/",
+      "sortpubdate": "2024/12/01 00:00"
+    },
+    {
+      "pmid": "39034625",
+      "title": "Small-volume blood sample collection tubes in adult intensive care units: A rapid practice guideline.",
+      "authors": [
+        "Callum J",
+        "Putowski Z",
+        "Alhazzani W",
+        "Belley-Cote E",
+        "M\u00f8ller MH",
+        "Curry N",
+        "Al Duhailib Z",
+        "Fung M",
+        "Giocobbo L",
+        "Granholm A",
+        "Louw V",
+        "Maybohm P",
+        "Muller M",
+        "Nielsen N",
+        "Oleschuk C",
+        "Raza S",
+        "Scruth E",
+        "Siegal D",
+        "Stanworth SJ",
+        "Vlaar APJ",
+        "White M",
+        "Oczkowski S"
+      ],
+      "authors_display": "Callum J, Putowski Z, Alhazzani W, Belley-Cote E, M\u00f8ller MH, Curry N, et al.",
+      "journal": "Acta anaesthesiologica Scandinavica",
+      "publication_date": "2024 Nov",
+      "year": "2024",
+      "doi": "10.1111/aas.14497",
+      "publication_types": [
+        "Journal Article",
+        "Practice Guideline",
+        "Systematic Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39034625/",
+      "sortpubdate": "2024/11/01 00:00"
+    },
+    {
+      "pmid": "38795872",
+      "title": "The historical origins of modern international normalized ratio targets.",
+      "authors": [
+        "Raza S",
+        "Pinkerton P",
+        "Hirsh J",
+        "Callum J",
+        "Selby R"
+      ],
+      "authors_display": "Raza S, Pinkerton P, Hirsh J, Callum J, Selby R",
+      "journal": "Journal of thrombosis and haemostasis : JTH",
+      "publication_date": "2024 Aug",
+      "year": "2024",
+      "doi": "10.1016/j.jtha.2024.05.013",
+      "publication_types": [
+        "Journal Article",
+        "Historical Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38795872/",
+      "sortpubdate": "2024/08/01 00:00"
+    },
+    {
+      "pmid": "38623793",
+      "title": "A review and analysis of outcomes in randomized clinical trials of plasma transfusion in patients with bleeding or for the prevention of bleeding: The BEST collaborative study.",
+      "authors": [
+        "Apelseth TO",
+        "Raza S",
+        "Callum J",
+        "Ipe T",
+        "Blackwood B",
+        "Akhtar A",
+        "Hess JR",
+        "Marks DC",
+        "Brown B",
+        "Delaney M",
+        "Wendel S",
+        "Stanworth SJ",
+        "Biomedical Excellence for Safer Transfusion Collaborative"
+      ],
+      "authors_display": "Apelseth TO, Raza S, Callum J, Ipe T, Blackwood B, Akhtar A, et al.",
+      "journal": "Transfusion",
+      "publication_date": "2024 Jun",
+      "year": "2024",
+      "doi": "10.1111/trf.17835",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38623793/",
+      "sortpubdate": "2024/06/01 00:00"
+    },
+    {
+      "pmid": "38581269",
+      "title": "Leading digit bias in hemoglobin thresholds for red cell transfusion.",
+      "authors": [
+        "Raza S",
+        "Risk M",
+        "Cserti-Gazdewich C"
+      ],
+      "authors_display": "Raza S, Risk M, Cserti-Gazdewich C",
+      "journal": "Transfusion",
+      "publication_date": "2024 May",
+      "year": "2024",
+      "doi": "10.1111/trf.17827",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38581269/",
+      "sortpubdate": "2024/05/01 00:00"
+    },
+    {
+      "pmid": "38488299",
+      "title": "Managing blood product shortages: Unprecedented challenges require novel solutions.",
+      "authors": [
+        "Jacobs JW",
+        "Raza S",
+        "Woo JS"
+      ],
+      "authors_display": "Jacobs JW, Raza S, Woo JS",
+      "journal": "Transfusion",
+      "publication_date": "2024 Mar",
+      "year": "2024",
+      "doi": "10.1111/trf.17723",
+      "publication_types": [
+        "Letter",
+        "Comment"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38488299/",
+      "sortpubdate": "2024/03/01 00:00"
+    },
+    {
+      "pmid": "37550092",
+      "title": "Therapeutic plasma exchange in alloimmune platelet refractoriness.",
+      "authors": [
+        "Raza S",
+        "Patriquin CJ",
+        "Yee K",
+        "Gupta A",
+        "Anani W",
+        "Wong J",
+        "Ellison C",
+        "Lieberman L",
+        "Pendergrast J",
+        "Cserti-Gazdewich C"
+      ],
+      "authors_display": "Raza S, Patriquin CJ, Yee K, Gupta A, Anani W, Wong J, et al.",
+      "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+      "publication_date": "2023 Dec",
+      "year": "2023",
+      "doi": "10.1016/j.transci.2023.103782",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37550092/",
+      "sortpubdate": "2023/12/01 00:00"
+    },
+    {
+      "pmid": "37768661",
+      "title": "Costs for Long-Term Health Care After a Police Shooting in Ontario, Canada.",
+      "authors": [
+        "Raza S",
+        "Thiruchelvam D",
+        "Redelmeier DA"
+      ],
+      "authors_display": "Raza S, Thiruchelvam D, Redelmeier DA",
+      "journal": "JAMA network open",
+      "publication_date": "2023 Sep 5",
+      "year": "2023",
+      "doi": "10.1001/jamanetworkopen.2023.35831",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37768661/",
+      "sortpubdate": "2023/09/05 00:00"
+    },
+    {
+      "pmid": "33376105",
+      "title": "Reducing redundant creatine kinase testing in cardiac injury.",
+      "authors": [
+        "Raza S",
+        "Amaral AC",
+        "Pang J",
+        "Moussa F",
+        "Shelton D",
+        "Notario L",
+        "Harrington H",
+        "Callum JL",
+        "Yip PM"
+      ],
+      "authors_display": "Raza S, Amaral AC, Pang J, Moussa F, Shelton D, Notario L, et al.",
+      "journal": "BMJ open quality",
+      "publication_date": "2020 Dec",
+      "year": "2020",
+      "doi": "10.1136/bmjoq-2020-001182",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33376105/",
+      "sortpubdate": "2020/12/01 00:00"
+    },
+    {
+      "pmid": "32665228",
+      "title": "Death and long-term disability after gun injury: a cohort analysis.",
+      "authors": [
+        "Raza S",
+        "Thiruchelvam D",
+        "Redelmeier DA"
+      ],
+      "authors_display": "Raza S, Thiruchelvam D, Redelmeier DA",
+      "journal": "CMAJ open",
+      "publication_date": "2020 Jul-Sep",
+      "year": "2020",
+      "doi": "10.9778/cmajo.20190200",
+      "publication_types": [
+        "Journal Article",
+        "Observational Study",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32665228/",
+      "sortpubdate": "2020/07/14 00:00"
+    },
+    {
+      "pmid": "29602457",
+      "title": "Optical illusions and life-threatening traffic crashes: A perspective on aerial perspective.",
+      "authors": [
+        "Redelmeier DA",
+        "Raza S"
+      ],
+      "authors_display": "Redelmeier DA, Raza S",
+      "journal": "Medical hypotheses",
+      "publication_date": "2018 May",
+      "year": "2018",
+      "doi": "10.1016/j.mehy.2018.02.008",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29602457/",
+      "sortpubdate": "2018/05/01 00:00"
+    },
+    {
+      "pmid": "28807709",
+      "title": "Gunshot to the Head.",
+      "authors": [
+        "Raza S",
+        "Redelmeier DA"
+      ],
+      "authors_display": "Raza S, Redelmeier DA",
+      "journal": "The American journal of medicine",
+      "publication_date": "2018 Jan",
+      "year": "2018",
+      "doi": "10.1016/j.amjmed.2017.07.026",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28807709/",
+      "sortpubdate": "2018/01/01 00:00"
+    },
+    {
+      "pmid": "28072708",
+      "title": "Life-threatening motor vehicle crashes in bright sunlight.",
+      "authors": [
+        "Redelmeier DA",
+        "Raza S"
+      ],
+      "authors_display": "Redelmeier DA, Raza S",
+      "journal": "Medicine",
+      "publication_date": "2017 Jan",
+      "year": "2017",
+      "doi": "10.1097/MD.0000000000005710",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28072708/",
+      "sortpubdate": "2017/01/01 00:00"
+    },
+    {
+      "pmid": "27552215",
+      "title": "Concussions and Repercussions.",
+      "authors": [
+        "Redelmeier DA",
+        "Raza S"
+      ],
+      "authors_display": "Redelmeier DA, Raza S",
+      "journal": "PLoS medicine",
+      "publication_date": "2016 Aug",
+      "year": "2016",
+      "doi": "10.1371/journal.pmed.1002104",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Comment"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/27552215/",
+      "sortpubdate": "2016/08/23 00:00"
+    },
+    {
+      "pmid": "26926948",
+      "title": "Syncope and the Risk of a Subsequent Motor Vehicle Crash.",
+      "authors": [
+        "Redelmeier DA",
+        "Raza S"
+      ],
+      "authors_display": "Redelmeier DA, Raza S",
+      "journal": "JAMA internal medicine",
+      "publication_date": "2016 Apr",
+      "year": "2016",
+      "doi": "10.1001/jamainternmed.2015.8617",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Comment"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/26926948/",
+      "sortpubdate": "2016/04/01 00:00"
+    }
+  ],
+  "publication_years": {
+    "2026": 5,
+    "2025": 15,
+    "2024": 9,
+    "2023": 2,
+    "2020": 2,
+    "2018": 2,
+    "2017": 1,
+    "2016": 2
+  },
+  "publication_count": 38,
+  "other_contributions": [
+    {
+      "title": "Plasma analysis from GADGET, ICTMG plasma guidelines",
+      "type": "Rounds",
+      "date": "March 26, 2026",
+      "year": "2026",
+      "venue": "University of Toronto Transfusion Medicine Rounds",
+      "credit": "Presented by Dr. Nadia Gabarin and Dr. Sheharyar Raza.",
+      "description": "ORBCoN event listing for the University of Toronto Transfusion Medicine Rounds.",
+      "url": "https://transfusionontario.org/en/event/university-of-toronto-transfusion-medicine-rounds-march-26-2026/"
+    },
+    {
+      "title": "AI applications for blood bank",
+      "type": "Symposium Presentation",
+      "date": "November 2025",
+      "year": "2025",
+      "venue": "Golden Horseshoe Education Supporting Transfusionists (GHEST) Symposium 2025",
+      "credit": "Presentation by Dr. Sheharyar Raza during the afternoon program.",
+      "description": "ORBCoN recap of the 2025 GHEST symposium in Oakville, Ontario.",
+      "url": "https://transfusionontario.org/en/golden-horseshoe-education-supporting-transfusionists-ghest-symposium-2025/"
+    },
+    {
+      "title": "Advancing transfusion practices for hemoglobinopathies",
+      "type": "Congress Session",
+      "date": "June 2, 2025",
+      "year": "2025",
+      "venue": "ISBT Milan 2025",
+      "credit": "Listed with Arwa Al Riyami, Patrizia Zerra, Sheharyar Raza, Evan M. Bloch, and Khadija Niyaz Mohammad.",
+      "description": "International Society of Blood Transfusion resource entry for a congress session.",
+      "url": "https://www.isbtweb.org/resource/advancing-transfusion-practices-for-hemoglobinopathies.html"
+    },
+    {
+      "title": "Early Cold Stored Platelet Transfusion Following Severe Injury",
+      "type": "LearnTransfusion Seminar",
+      "date": "January 7, 2025",
+      "year": "2025",
+      "venue": "Canadian Blood Services Professional Education",
+      "credit": "Presented by Dr. Sheharyar Raza, Transfusion Medicine Physician Trainee, University of Toronto.",
+      "description": "LearnTransfusion event page outlining the seminar and learning objectives.",
+      "url": "https://professionaleducation.blood.ca/en/early-cold-stored-platelet-transfusion-following-severe-injury"
+    },
+    {
+      "title": "The International Collaboration for Transfusion Medicine Guidelines\u2019 (ICTMG) Use of Intravenous Albumin guideline: Moving evidence into practice",
+      "type": "Webinar",
+      "date": "September 6, 2024",
+      "year": "2024",
+      "venue": "Breakthroughs in Blood: Advancements into Action",
+      "credit": "Presented by Sheharyar Raza, MD, MSc, FRCPC, Transfusion Medicine \u2013 Toronto, Canada.",
+      "description": "Canadian Blood Services professional education webinar page with recording and slide materials.",
+      "url": "https://professionaleducation.blood.ca/en/international-collaboration-transfusion-medicine-guidelines-ictmg-use-intravenous-albumin-guideline"
+    }
+  ],
+  "other_contributions_count": 5,
+  "stats": [
+    {
+      "label": "PubMed publications",
+      "value": "38"
+    },
+    {
+      "label": "Other contributions",
+      "value": "5"
+    },
+    {
+      "label": "Current academic track",
+      "value": "MSc Candidate"
+    }
+  ]
+}
