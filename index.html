@@ -64,6 +64,8 @@
               </div>
             </section>
 
+            <div class="employment-slot" data-employment-slot="left" aria-hidden="true"></div>
+
             <section class="nav-card">
               <p class="rail-label">Contents</p>
               <nav class="toc">
@@ -74,6 +76,8 @@
                 <a href="#education" class="toc-link">Formal Education</a>
               </nav>
             </section>
+
+            <div class="employment-slot" data-employment-slot="stacked" aria-hidden="true"></div>
           </div>
         </aside>
 
@@ -204,17 +208,20 @@
         </main>
 
         <aside class="experience-rail" aria-label="Professional experience">
-          <div class="experience-rail-inner">
+          <div class="experience-rail-inner" data-employment-slot="right">
             <section class="experience-card">
-              <button
-                class="experience-toggle"
-                type="button"
-                aria-expanded="true"
-                aria-controls="employment-body"
-              >
-                <span class="rail-label">Employment</span>
-                <span class="experience-toggle-icon" aria-hidden="true">−</span>
-              </button>
+              <div class="experience-card-header">
+                <p class="rail-label">Employment</p>
+                <button
+                  class="experience-collapse-button"
+                  type="button"
+                  aria-expanded="true"
+                  aria-controls="employment-body"
+                  aria-label="Toggle employment panel"
+                >
+                  <span class="experience-collapse-icon" aria-hidden="true">−</span>
+                </button>
+              </div>
               <div class="experience-panel-body" id="employment-body">
                 <div class="experience-list" id="experience-list"></div>
               </div>

@@ -212,6 +212,14 @@ button:focus-visible {
   gap: 1rem;
 }
 
+.employment-slot {
+  display: none;
+}
+
+.employment-slot.is-active {
+  display: block;
+}
+
 .left-rail,
 .experience-rail {
   font-size: 0.88em;
@@ -219,6 +227,10 @@ button:focus-visible {
 
 .experience-rail {
   grid-area: right;
+}
+
+.experience-rail.is-empty {
+  display: none;
 }
 
 .identity-card,
@@ -716,23 +728,35 @@ button:focus-visible {
   margin-top: 0;
 }
 
-.experience-toggle {
+.experience-card-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 0.75rem;
-  width: 100%;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-  text-align: left;
+  margin-bottom: 0;
 }
 
-.experience-toggle-icon {
+.experience-card-header .rail-label {
+  margin: 0;
+}
+
+.experience-collapse-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: 0;
+  appearance: none;
+  background: transparent;
   color: var(--accent);
-  font-size: 1.35rem;
+  cursor: pointer;
+}
+
+.experience-collapse-icon {
+  color: var(--accent);
+  font-size: 1.4rem;
   line-height: 1;
 }
 
@@ -794,32 +818,27 @@ button:focus-visible {
   border-top: 1px solid var(--border);
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1600px) {
   .layout {
-    grid-template-areas:
-      "left content"
-      "right content";
+    grid-template-areas: "left content";
     grid-template-columns: minmax(240px, 28%) minmax(0, 1fr);
   }
 
-  .left-rail,
   .experience-rail {
     position: static;
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1100px) {
   .layout {
     grid-template-areas:
       "left"
-      "right"
       "content";
     grid-template-columns: 1fr;
     gap: 1.4rem;
   }
 
   .left-rail,
-  .experience-rail,
   .nav-card {
     position: static;
   }

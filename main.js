@@ -5,7 +5,8 @@ const MAX_FONT_SIZE = 21;
 const FONT_SIZE_STEP = 1;
 
 let publicationHighlightTimer;
-const EMPLOYMENT_COLLAPSE_BREAKPOINT = 980;
+const EMPLOYMENT_LEFT_BREAKPOINT = 1600;
+const EMPLOYMENT_COLLAPSE_BREAKPOINT = 1100;
 
 function createElement(tagName, className, html) {
   const element = document.createElement(tagName);
@@ -160,9 +161,9 @@ function setSectionState(section, expanded) {
 }
 
 function setEmploymentState(expanded) {
-  const button = document.querySelector(".experience-toggle");
+  const button = document.querySelector(".experience-collapse-button");
   const body = document.getElementById("employment-body");
-  const icon = document.querySelector(".experience-toggle-icon");
+  const icon = document.querySelector(".experience-collapse-icon");
 
   if (!button || !body || !icon) {
     return;
@@ -341,38 +342,62 @@ function wireScrollSpy() {
 }
 
 function wireEmploymentPanel() {
-  const button = document.querySelector(".experience-toggle");
+  const button = document.querySelector(".experience-collapse-button");
+  const rail = document.querySelector(".experience-rail");
+  const card = document.querySelector(".experience-card");
+  const slots = {
+    right: document.querySelector('[data-employment-slot="right"]'),
+    left: document.querySelector('[data-employment-slot="left"]'),
+    stacked: document.querySelector('[data-employment-slot="stacked"]')
+  };
 
-  if (!button) {
+  if (!button || !rail || !card || !slots.right || !slots.left || !slots.stacked) {
     return;
   }
 
-  const compactQuery = window.matchMedia(`(max-width: ${EMPLOYMENT_COLLAPSE_BREAKPOINT}px)`);
-  let hasInitialized = false;
+  let currentMode = "";
+  let resizeFrame = 0;
 
-  const syncEmploymentState = (matches) => {
-    if (!hasInitialized) {
-      setEmploymentState(!matches);
-      hasInitialized = true;
-      return;
+  const resolveMode = () => {
+    if (window.innerWidth <= EMPLOYMENT_COLLAPSE_BREAKPOINT) {
+      return "stacked";
     }
 
-    if (matches) {
-      setEmploymentState(false);
-    } else {
-      setEmploymentState(true);
+    if (window.innerWidth <= EMPLOYMENT_LEFT_BREAKPOINT) {
+      return "left";
+    }
+
+    return "right";
+  };
+
+  const syncEmploymentState = () => {
+    const nextMode = resolveMode();
+
+    if (nextMode !== currentMode) {
+      const targetSlot = slots[nextMode];
+
+      targetSlot.appendChild(card);
+      rail.classList.toggle("is-empty", nextMode !== "right");
+      rail.setAttribute("aria-hidden", String(nextMode !== "right"));
+      slots.left.classList.toggle("is-active", nextMode === "left");
+      slots.stacked.classList.toggle("is-active", nextMode === "stacked");
+      slots.left.setAttribute("aria-hidden", String(nextMode !== "left"));
+      slots.stacked.setAttribute("aria-hidden", String(nextMode !== "stacked"));
+      setEmploymentState(nextMode !== "stacked");
+      currentMode = nextMode;
     }
   };
 
-  syncEmploymentState(compactQuery.matches);
+  syncEmploymentState();
 
   button.addEventListener("click", () => {
     const expanded = button.getAttribute("aria-expanded") === "true";
     setEmploymentState(!expanded);
   });
 
-  compactQuery.addEventListener("change", (event) => {
-    syncEmploymentState(event.matches);
+  window.addEventListener("resize", () => {
+    window.cancelAnimationFrame(resizeFrame);
+    resizeFrame = window.requestAnimationFrame(syncEmploymentState);
   });
 }
 
