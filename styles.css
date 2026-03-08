@@ -245,7 +245,7 @@ button:focus-visible {
 
 .identity-header {
   display: grid;
-  justify-items: start;
+  justify-items: center;
   gap: 0.8rem;
   align-items: start;
 }
@@ -269,6 +269,8 @@ button:focus-visible {
   min-width: 0;
   display: grid;
   gap: 0.22rem;
+  justify-items: center;
+  text-align: center;
 }
 
 .identity-name {
