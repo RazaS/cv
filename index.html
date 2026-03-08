@@ -206,8 +206,18 @@
         <aside class="experience-rail" aria-label="Professional experience">
           <div class="experience-rail-inner">
             <section class="experience-card">
-              <p class="rail-label">Employment</p>
-              <div class="experience-list" id="experience-list"></div>
+              <button
+                class="experience-toggle"
+                type="button"
+                aria-expanded="true"
+                aria-controls="employment-body"
+              >
+                <span class="rail-label">Employment</span>
+                <span class="experience-toggle-icon" aria-hidden="true">−</span>
+              </button>
+              <div class="experience-panel-body" id="employment-body">
+                <div class="experience-list" id="experience-list"></div>
+              </div>
             </section>
           </div>
         </aside>

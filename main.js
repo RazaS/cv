@@ -5,6 +5,7 @@ const MAX_FONT_SIZE = 21;
 const FONT_SIZE_STEP = 1;
 
 let publicationHighlightTimer;
+const EMPLOYMENT_COLLAPSE_BREAKPOINT = 980;
 
 function createElement(tagName, className, html) {
   const element = document.createElement(tagName);
@@ -153,6 +154,20 @@ function setSectionState(section, expanded) {
   const icon = section.querySelector(".section-toggle-icon");
 
   section.classList.toggle("is-open", expanded);
+  button.setAttribute("aria-expanded", String(expanded));
+  body.classList.toggle("is-collapsed", !expanded);
+  icon.textContent = expanded ? "−" : "+";
+}
+
+function setEmploymentState(expanded) {
+  const button = document.querySelector(".experience-toggle");
+  const body = document.getElementById("employment-body");
+  const icon = document.querySelector(".experience-toggle-icon");
+
+  if (!button || !body || !icon) {
+    return;
+  }
+
   button.setAttribute("aria-expanded", String(expanded));
   body.classList.toggle("is-collapsed", !expanded);
   icon.textContent = expanded ? "−" : "+";
@@ -325,6 +340,42 @@ function wireScrollSpy() {
   sections.forEach((section) => observer.observe(section));
 }
 
+function wireEmploymentPanel() {
+  const button = document.querySelector(".experience-toggle");
+
+  if (!button) {
+    return;
+  }
+
+  const compactQuery = window.matchMedia(`(max-width: ${EMPLOYMENT_COLLAPSE_BREAKPOINT}px)`);
+  let hasInitialized = false;
+
+  const syncEmploymentState = (matches) => {
+    if (!hasInitialized) {
+      setEmploymentState(!matches);
+      hasInitialized = true;
+      return;
+    }
+
+    if (matches) {
+      setEmploymentState(false);
+    } else {
+      setEmploymentState(true);
+    }
+  };
+
+  syncEmploymentState(compactQuery.matches);
+
+  button.addEventListener("click", () => {
+    const expanded = button.getAttribute("aria-expanded") === "true";
+    setEmploymentState(!expanded);
+  });
+
+  compactQuery.addEventListener("change", (event) => {
+    syncEmploymentState(event.matches);
+  });
+}
+
 async function initialize() {
   const response = await fetch("site-data.json");
   const data = await response.json();
@@ -336,6 +387,7 @@ async function initialize() {
   renderExperience(data.professional_experience);
   wireTextControls();
   wireAccordions();
+  wireEmploymentPanel();
   wirePublicationChart();
   wireScrollSpy();
 }
