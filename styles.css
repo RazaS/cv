@@ -875,7 +875,25 @@ button:focus-visible {
 
 @media (max-width: 760px) {
   .page-frame {
-    width: min(calc(100% - 1rem), var(--content-width));
+    width: 100%;
+    padding: 0 0.75rem 3rem;
+  }
+
+  .masthead,
+  .masthead-row,
+  .masthead-tools,
+  .layout,
+  .left-rail,
+  .left-rail-inner,
+  .content,
+  .identity-card,
+  .nav-card,
+  .experience-card,
+  .section,
+  .hero-copy,
+  .publication-chart-shell {
+    width: 100%;
+    min-width: 0;
   }
 
   .masthead-row {
@@ -886,6 +904,25 @@ button:focus-visible {
   .masthead-tools {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .toc {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    overflow-x: visible;
+    gap: 0;
+  }
+
+  .toc-link {
+    width: 100%;
+    padding: 0.56rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 0;
+  }
+
+  .toc-link:hover,
+  .toc-link.is-active {
+    border-bottom-color: transparent;
   }
 
   .top-tagline {
