@@ -73,6 +73,8 @@ function renderPublicationChart(publicationYears) {
   const maxCount = Math.max(...Object.values(publicationYears));
   const maxBarHeight = 220;
 
+  chart.style.setProperty("--publication-year-count", String(Math.max(years.length, 1)));
+
   chart.innerHTML = years
     .map((year) => {
       const count = publicationYears[year];

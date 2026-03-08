@@ -521,9 +521,9 @@ button:focus-visible {
 
 .publication-chart {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--publication-year-count, 1), minmax(0, 1fr));
   align-items: end;
-  gap: 0.45rem;
+  gap: clamp(0.18rem, 0.7vw, 0.45rem);
 }
 
 .publication-bar-group {
@@ -953,7 +953,20 @@ button:focus-visible {
   }
 
   .publication-chart {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.18rem;
+  }
+
+  .publication-bar-group {
+    gap: 0.3rem;
+  }
+
+  .publication-bar-track {
+    height: 180px;
+  }
+
+  .publication-bar-count,
+  .publication-bar-year {
+    font-size: 0.64rem;
   }
 
   .page-footer {
