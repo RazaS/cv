@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -9,6 +10,7 @@ from typing import Any
 
 import requests
 import yaml
+from requests import Response
 
 ROOT = Path(__file__).resolve().parents[1]
 PROFILE_PATH = ROOT / "cv_profile.yaml"
@@ -16,12 +18,38 @@ OUTPUT_PATH = ROOT / "site-data.json"
 ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 ESUMMARY_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi"
 PUBMED_AUTHOR_QUERY = "Sheharyar Raza[Author - Full]"
+REQUEST_RETRY_DELAYS = [1, 2, 4, 8]
+REQUEST_PAUSE_SECONDS = 0.34
+
+
+def get_with_retries(url: str, params: dict[str, Any]) -> Response:
+    last_error: Exception | None = None
+
+    for attempt, delay in enumerate([0, *REQUEST_RETRY_DELAYS], start=1):
+        if delay:
+            time.sleep(delay)
+
+        try:
+            response = requests.get(url, params=params, timeout=30)
+            if response.status_code == 429:
+                last_error = requests.HTTPError("429 Too Many Requests", response=response)
+                continue
+            response.raise_for_status()
+            return response
+        except requests.RequestException as error:
+            last_error = error
+            if attempt == len(REQUEST_RETRY_DELAYS) + 1:
+                break
+
+    if last_error:
+        raise last_error
+    raise RuntimeError("Request failed without a captured exception.")
 
 
 def search_pubmed_pmids() -> list[str]:
-    response = requests.get(
+    response = get_with_retries(
         ESEARCH_URL,
-        params={
+        {
             "db": "pubmed",
             "term": PUBMED_AUTHOR_QUERY,
             "retmode": "json",
@@ -29,7 +57,6 @@ def search_pubmed_pmids() -> list[str]:
             "sort": "pub date",
             "tool": "raza-cv",
         },
-        timeout=30,
     )
     response.raise_for_status()
     pmids = response.json()["esearchresult"]["idlist"]
@@ -80,12 +107,10 @@ def fetch_pubmed_records(pmids: list[str]) -> list[dict[str, Any]]:
     publications: list[dict[str, Any]] = []
 
     for batch in batched(pmids, 20):
-        response = requests.get(
+        response = get_with_retries(
             ESUMMARY_URL,
-            params={"db": "pubmed", "id": ",".join(batch), "retmode": "json"},
-            timeout=30,
+            {"db": "pubmed", "id": ",".join(batch), "retmode": "json"},
         )
-        response.raise_for_status()
         payload = response.json()["result"]
 
         for uid in payload["uids"]:
@@ -107,6 +132,8 @@ def fetch_pubmed_records(pmids: list[str]) -> list[dict[str, Any]]:
                 "sortpubdate": item.get("sortpubdate", ""),
             }
             publications.append(publication)
+
+        time.sleep(REQUEST_PAUSE_SECONDS)
 
     publications.sort(key=lambda publication: publication.get("sortpubdate", ""), reverse=True)
     return publications

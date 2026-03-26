@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T23:56:51.084893+00:00",
+  "generated_at": "2026-03-26T04:05:30.718309+00:00",
   "name": "Sheharyar Raza",
   "headline": "Interactive curriculum vitae",
   "summary": "Hematology, transfusion medicine, biostatistics, scientific writing, computer programming, and artificial intelligence.",
@@ -60,6 +60,78 @@
     }
   ],
   "publications": [
+    {
+      "pmid": "41472522",
+      "title": "Factor XIII Supplementation in Postpartum Hemorrhage: From Biological Rationale to Clinical Implementation.",
+      "authors": [
+        "Jacobs JW",
+        "Abels EA",
+        "Adkins BD",
+        "Booth GS",
+        "Costa V",
+        "Raza S",
+        "Simon M",
+        "Woo JS",
+        "Wheeler AP"
+      ],
+      "authors_display": "Jacobs JW, Abels EA, Adkins BD, Booth GS, Costa V, Raza S, et al.",
+      "journal": "American journal of hematology",
+      "publication_date": "2026 Apr",
+      "year": "2026",
+      "doi": "10.1002/ajh.70181",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41472522/",
+      "sortpubdate": "2026/04/01 00:00"
+    },
+    {
+      "pmid": "41866232",
+      "title": "Harnessing big data and artificial intelligence in transfusion medicine: Opportunities for precision, safety and efficiency.",
+      "authors": [
+        "Raza S",
+        "Goel R",
+        "Erikstrup C",
+        "D'Alessandro A",
+        "Custer B",
+        "Li N",
+        "ISBT BIG DATA Working Party"
+      ],
+      "authors_display": "Raza S, Goel R, Erikstrup C, D'Alessandro A, Custer B, Li N, et al.",
+      "journal": "Vox sanguinis",
+      "publication_date": "2026 Mar 22",
+      "year": "2026",
+      "doi": "10.1111/vox.70236",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41866232/",
+      "sortpubdate": "2026/03/22 00:00"
+    },
+    {
+      "pmid": "41795145",
+      "title": "Wellness testing in blood donation: A framework for responsible innovation.",
+      "authors": [
+        "Jacobs JW",
+        "Raza S",
+        "Adkins BD",
+        "Costa V",
+        "Chooljian DM",
+        "Booth GS"
+      ],
+      "authors_display": "Jacobs JW, Raza S, Adkins BD, Costa V, Chooljian DM, Booth GS",
+      "journal": "Transfusion",
+      "publication_date": "2026 Mar 7",
+      "year": "2026",
+      "doi": "10.1111/trf.70151",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41795145/",
+      "sortpubdate": "2026/03/07 00:00"
+    },
     {
       "pmid": "41441855",
       "title": "Improving transfusion access through improved policy: a call for a less fragmented blood supply.",
@@ -169,14 +241,15 @@
       ],
       "authors_display": "Maynard S, Farrington J, Raza S, Stanworth SJ",
       "journal": "Transfusion medicine reviews",
-      "publication_date": "2026 Jan 29",
+      "publication_date": "2026 Jan",
       "year": "2026",
       "doi": "10.1016/j.tmrv.2026.150961",
       "publication_types": [
-        "Journal Article"
+        "Journal Article",
+        "Review"
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41723890/",
-      "sortpubdate": "2026/01/29 00:00"
+      "sortpubdate": "2026/01/01 00:00"
     },
     {
       "pmid": "41152565",
@@ -230,32 +303,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40716988/",
       "sortpubdate": "2026/01/01 00:00"
-    },
-    {
-      "pmid": "41472522",
-      "title": "Factor XIII Supplementation in Postpartum Hemorrhage: From Biological Rationale to Clinical Implementation.",
-      "authors": [
-        "Jacobs JW",
-        "Abels EA",
-        "Adkins BD",
-        "Booth GS",
-        "Costa V",
-        "Raza S",
-        "Simon M",
-        "Woo JS",
-        "Wheeler AP"
-      ],
-      "authors_display": "Jacobs JW, Abels EA, Adkins BD, Booth GS, Costa V, Raza S, et al.",
-      "journal": "American journal of hematology",
-      "publication_date": "2025 Dec 31",
-      "year": "2025",
-      "doi": "10.1002/ajh.70181",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41472522/",
-      "sortpubdate": "2025/12/31 00:00"
     },
     {
       "pmid": "41074624",
@@ -1082,8 +1129,8 @@
     }
   ],
   "publication_years": {
-    "2026": 7,
-    "2025": 15,
+    "2026": 10,
+    "2025": 14,
     "2024": 9,
     "2023": 2,
     "2020": 2,
@@ -1091,7 +1138,7 @@
     "2017": 1,
     "2016": 2
   },
-  "publication_count": 40,
+  "publication_count": 42,
   "other_contributions": [
     {
       "title": "Plasma analysis from GADGET, ICTMG plasma guidelines",
@@ -1148,7 +1195,7 @@
   "stats": [
     {
       "label": "PubMed publications",
-      "value": "40"
+      "value": "42"
     },
     {
       "label": "Other contributions",
