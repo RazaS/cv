@@ -404,7 +404,7 @@ function wireEmploymentPanel() {
 }
 
 async function initialize() {
-  const response = await fetch("site-data.json");
+  const response = await fetch(`site-data.json?t=${Date.now()}`, { cache: "no-store" });
   const data = await response.json();
 
   renderPublications(data);
